@@ -4,7 +4,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'aliyun-hk': {
+    /*'aliyun-hk': {
       label: '演示服务-香港节点',
       lines: [
         // 多条线路，负载均衡系统会从其中选一条
@@ -18,7 +18,7 @@ jsproxy_config({
       lines: [
         'node-aliyun-sg.etherdream.com:8443'
       ]
-    },
+    },*/
     'mysite': {
       label: '当前站点',
       lines: [
